@@ -1,0 +1,94 @@
+.container{
+    .wishtree{
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+        background:url(/img/wishtreebg.jpg);
+        .friendwishtop{
+                height: .6rem;
+                width: 100%;
+                h2{ 
+                font-size: .2rem;
+                display: flex;
+                height: 100%;
+                line-height: .6rem;
+                color: #fff;
+                span{
+                    // padding-left:.3rem ;
+                    width:.15rem;
+                    display: inline-block;
+                    margin-left: .3rem;
+                    cursor: pointer;
+                    &::before{
+                        display: block;
+                        height: 100%;
+                        line-height: .6rem;
+                    }
+                }
+                b{
+                    flex: 1;
+                    text-align: center;
+                }
+            }
+        }
+        // 许愿大树
+        .tr-wish{
+            position: absolute;
+            left: 0;
+            margin:auto;
+            top:0;
+            right:0;
+            bottom:0;
+            width: 3rem;
+            height: 3rem;
+            background: url(/img/tree.png) no-repeat;
+            background-size: 3rem 3rem;
+            ul{
+                position: absolute;
+                top: 1.5rem;
+                height:.7rem ;
+                // background: red;
+                width: 3rem;
+                li{
+                    cursor: pointer;
+                    height: 100%;
+                    width: .3rem;
+                    position: absolute;
+                    background: url(/img/wishlabel.png) no-repeat;
+                    background-size: .3rem .7rem;
+                    a{
+                        display: block;
+                        height: .7rem;
+                    }
+                }
+                .wish0{
+                   
+                    left: 2rem;
+                  
+                  
+                }
+                .wish1{
+                   
+                    left: 1.5rem;
+                    top:-0.1rem;
+                 
+                  
+                }
+                .wish2{
+                   
+                    left: .6rem;
+                    top:.05rem;
+                 
+                   
+                }
+            }
+        }
+      
+        // 右上公益公园
+       
+        // 左上个人中心
+      
+        // 签到 日记 许愿
+       
+    }
+}

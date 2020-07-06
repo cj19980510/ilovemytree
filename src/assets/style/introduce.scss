@@ -1,0 +1,55 @@
+
+.intro-box{
+    // height: 100%;
+    overflow: hidden;
+}
+.h-s-content{
+    width:3.45rem;
+    margin-left: 0.15rem;
+    .h-s-title{
+        margin-top: 0.3rem;
+        display: flex;
+        // text-align: center;
+        img:nth-of-type(1){
+            margin-left: 1rem;
+        }
+       
+    }
+    .p1{
+        margin-top: 0.2rem;
+    }
+    p{
+        font-size: 0.15rem;
+        color :#747474;
+        text-indent: 2em;
+        line-height: 0.25rem;
+    }
+    .quanyi{
+        margin-top: 0.2rem;
+        li{
+            display: flex;
+           padding: 0.15rem 0;
+            p:nth-of-type(1){
+                font-size: 0.16rem;
+                font-weight: bold;
+            }
+            p:nth-of-type(2){
+                margin-top: 0.05rem;
+                font-size: 0.14rem;
+            }
+        }
+    }
+    .money{
+        margin-top: 0.2rem;
+    }
+    .btn-intro{
+        width: 3.5rem;
+        height: 0.35rem;
+        background: #0fa87d;
+        border-radius: 0.2rem;
+        margin-top: 0.3rem;
+        border: 0;
+        color: #fff;
+        margin-bottom: 0.4rem;
+    }
+}

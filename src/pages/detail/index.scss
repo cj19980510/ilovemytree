@@ -1,0 +1,135 @@
+.container {
+  .detail-box {
+    .header {
+      line-height: 0.6rem;
+      display: flex;
+      align-items: center;
+      padding: 0 0.15rem;
+      i {
+        font-size: 0.17rem;
+      }
+      span {
+        flex: 1;
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+    .pine_tree {
+      height: 2.8rem;
+      width: 100%;
+    }
+    .tree-intro {
+      position: relative;
+      z-index: 1000;
+      width: 3.45rem;
+      height: 0.74rem;
+      margin: 0 0.15rem;
+      padding: 0 0.15rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin-top: -0.5rem;
+      background: #fff;
+      border-radius: 0.05rem;
+      box-shadow: 0 0 0.01rem 0.001rem #ccc;
+      .intro-left {
+        display: flex;
+        justify-content: space-between;
+        .treename {
+          font-size: 0.16rem;
+          font-weight: bold;
+        }
+        .treeprice {
+          color: #30b48f;
+          font-size: 0.16rem;
+          font-weight: bold;
+        }
+      }
+      .intro-right {
+        font-size: 0.1rem;
+        color: #a3a3a3;
+      }
+    }
+    .tree-history {
+      width: 3.45rem;
+      margin: 0 0.15rem;
+      padding: 0.18rem 0.15rem;
+      background: #fff;
+      margin-top: 0.16rem;
+      h4 {
+        margin-bottom: 0.18rem;
+      }
+      .history-text {
+        line-height: 0.2rem;
+        color: #bbbbbb;
+        font-size: 0.11rem;
+      }
+    }
+    .middle {
+      display: flex;
+      height: 0.4rem;
+      width: 3.45rem;
+      margin: 0 0.15rem;
+      justify-content: center;
+      align-items: center;
+      .line {
+        width: 0.28rem;
+        height: 0;
+        border: 0.01rem solid #a4a4a4;
+        margin: 0 0.08rem;
+      }
+      .tree-detail {
+        color: #a4a4a4;
+        font-size: 0.1rem;
+      }
+    }
+    .pro-pic {
+      margin: 0 0.15rem;
+      width: 3.45rem;
+      height: 1.18rem;
+      border-radius: 0.05rem;
+    }
+  }
+
+  .agreement {
+    height: 0.82rem;
+    .agree-top {
+      display: flex;
+      align-items: center;
+      a {
+        color: #5ec5a8;
+      }
+    }
+    .detailadopt {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 0.15rem;
+      a {
+        width: 2.6rem;
+        height: 0.4rem;
+        background: #0fa87d;
+        color: #fff;
+        border-radius: 0.2rem;
+        display: block;
+        text-align: center;
+        line-height: 0.4rem;
+      }
+      .service {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        // margin-left: 0.26rem;
+        i {
+          font-size: 0.2rem;
+          color: #bcbcbc;
+        }
+        p {
+          color: #bcbcbc;
+          font-size: 0.09rem;
+        }
+      }
+    }
+  }
+}

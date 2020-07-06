@@ -1,0 +1,34 @@
+.foster {
+  width: 3.45rem;
+  margin-left: 0.15rem;
+  .foster-img {
+    background-color: #fff;
+    padding: 0.2rem;
+    margin-bottom: 0.2rem;
+    border-radius: 0.15rem;
+    span {
+      margin-left: 0.2rem;
+      vertical-align: middle;
+    }
+    img {
+      vertical-align: middle;
+    }
+  }
+  .foster-btn {
+    background-color: #10a87d;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    text-align: center;
+    line-height: 0.4rem;
+    margin-top: 1.5rem;
+    a {
+      color: #fff;
+    }
+  }
+  .am-list {
+    border-radius: 0.2rem !important;
+  }
+  .list-1 .am-list-extra {
+    color: red !important;
+  }
+}

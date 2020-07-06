@@ -1,0 +1,5 @@
+export const GET_MINE_MSG = 'GET_MINE_MSG'
+export const GET_MINE_LOGIN = 'GET_MINE_LOGIN'
+export const GET_USER_MSG = 'GET_USER_MSG'
+export const GET_MY_ZOO = 'GET_MY_ZOO'
+export const GET_USER_IMG = 'GET_USER_IMG'

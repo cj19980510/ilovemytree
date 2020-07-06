@@ -1,0 +1,33 @@
+header{
+    text-align: center;
+    position: relative;
+    
+    padding: 0 .1rem;
+    background-color: #fff;
+    h2{ 
+        font-size: .2rem;
+        display: flex;
+        height: 100%;
+        line-height: .6rem;
+        span{
+            width:.16rem;
+            display: inline-block;
+            cursor: pointer;
+            color: #333;
+            &::before{
+                display: block;
+                height: 100%;
+                line-height: .6rem;
+            }
+        }
+         b{
+            flex: 1;
+            text-align: center;
+        }
+    }
+    b {
+      flex: 1;
+      text-align: center;
+    }
+  }
+

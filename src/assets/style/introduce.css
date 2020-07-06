@@ -1,0 +1,62 @@
+.intro-box {
+  overflow: hidden;
+}
+
+.h-s-content {
+  width: 3.45rem;
+  margin-left: 0.15rem;
+}
+
+.h-s-content .h-s-title {
+  margin-top: 0.3rem;
+  display: flex;
+}
+
+.h-s-content .h-s-title img:nth-of-type(1) {
+  margin-left: 1rem;
+}
+
+.h-s-content .p1 {
+  margin-top: 0.2rem;
+}
+
+.h-s-content p {
+  font-size: 0.15rem;
+  color: #747474;
+  text-indent: 2em;
+  line-height: 0.25rem;
+}
+
+.h-s-content .quanyi {
+  margin-top: 0.2rem;
+}
+
+.h-s-content .quanyi li {
+  display: flex;
+  padding: 0.15rem 0;
+}
+
+.h-s-content .quanyi li p:nth-of-type(1) {
+  font-size: 0.16rem;
+  font-weight: bold;
+}
+
+.h-s-content .quanyi li p:nth-of-type(2) {
+  margin-top: 0.05rem;
+  font-size: 0.14rem;
+}
+
+.h-s-content .money {
+  margin-top: 0.2rem;
+}
+
+.h-s-content .btn-intro {
+  width: 3.5rem;
+  height: 0.35rem;
+  background: #0fa87d;
+  border-radius: 0.2rem;
+  margin-top: 0.3rem;
+  border: 0;
+  color: #fff;
+  margin-bottom: 0.4rem;
+}

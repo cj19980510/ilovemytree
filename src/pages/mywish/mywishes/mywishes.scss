@@ -1,0 +1,91 @@
+.mywishespage {
+  height: 100%;
+  .mywishbox {
+    height: 100%;
+    position: relative;
+    display: flex !important;
+    flex-direction: column;
+
+    .mywishestop {
+      height: 0.6rem;
+      width: 100%;
+      h2 {
+        font-size: 0.2rem;
+        display: flex;
+        height: 100%;
+        line-height: 0.6rem;
+        color: #fff;
+        span {
+          padding-left: 0.3rem;
+          width: 0.12rem;
+          display: inline-block;
+
+          cursor: pointer;
+          &::before {
+            display: block;
+            height: 100%;
+            line-height: 0.6rem;
+          }
+        }
+        b {
+          flex: 1;
+          text-align: center;
+        }
+      }
+    }
+    .wishcontentlist {
+      padding: 0.2rem 0.3rem 0.15rem;
+      flex: 1;
+      overflow: auto;
+      margin-bottom: 0.1rem;
+      .wishlist {
+        // height: 100%;
+
+        // overflow: auto;
+        li {
+          color: #fff;
+          height: 1.2rem;
+          padding: 0.15rem;
+          color: #333;
+
+          a {
+            display: flex;
+            .wishinfo {
+              width: 2rem;
+              height: 0.6rem;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+            }
+            .wishtypebox {
+              display: flex;
+              align-self: flex-end;
+              .wishtype {
+                display: inline-block;
+                border: 0.01rem solid #f76105;
+                height: 0.25rem;
+                width: 0.8rem;
+                color: #f76105;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .content {
+    text-align: center;
+    top: 3.5rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+    width: 2rem;
+    height: 1rem;
+    p {
+      color: #fff;
+    }
+  }
+}

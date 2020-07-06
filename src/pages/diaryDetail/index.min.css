@@ -1,0 +1,1 @@
+.diaryDetail{height:100%;background:url(/img/background.png);display:flex;flex-direction:column}.diaryDetail .header{height:0.6rem;display:flex;align-items:center;padding:0 0.16rem}.diaryDetail .header i{font-size:0.17rem;color:#fff}.diaryDetail .header span{flex:1;text-align:center;color:#fff}

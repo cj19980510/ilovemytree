@@ -1,0 +1,155 @@
+.wishdetail {
+  height: 100%;
+  position: relative;
+  // 背景图
+  img {
+    height: 100%;
+    width: 100%;
+  }
+  // 头部
+  .willdtltop {
+    height: 0.6rem;
+
+    width: 100%;
+    h2 {
+      font-size: 0.2rem;
+      display: flex;
+      height: 100%;
+      line-height: 0.6rem;
+      color: #fff;
+      span {
+        padding-left: 0.3rem;
+        width: 0.12rem;
+        display: inline-block;
+
+        cursor: pointer;
+        &::before {
+          display: block;
+          height: 100%;
+          line-height: 0.6rem;
+        }
+      }
+      b {
+        flex: 1;
+        text-align: center;
+      }
+    }
+  }
+  // 许下我的愿望
+  .mywishtitle {
+    height: 0.4rem;
+    display: flex;
+    padding-left: 0.3rem;
+    img {
+      width: 0.2rem;
+      height: 0.3rem;
+    }
+    b {
+      line-height: 0.3rem;
+      padding-left: 0.1rem;
+      color: #fff;
+    }
+  }
+  // 我的愿望
+  .mywishdetail {
+    width: 3.2rem !important;
+    height: 2rem !important;
+    margin: 0 auto;
+    // 文本框
+    padding: 0.4rem;
+    .wish-content {
+      border: none;
+      outline: none;
+      resize: none;
+      height: 1.2rem;
+      width: 2.5rem;
+      overflow-y: hidden;
+    }
+    p {
+      text-align: right;
+    }
+  }
+  // 权限设置
+  .pwset {
+    margin-top: 0.2rem;
+  }
+  // 类型选择
+  .wish-type-select {
+    display: flex;
+    padding: 0.2rem 0 0.2rem 0.3rem;
+    > i {
+      color: #fff;
+      margin-right: 0.2rem;
+      margin-left: 0.05rem;
+    }
+    .checkedtype {
+      display: inline-block;
+      width: 0.25rem;
+      height: 0.25rem;
+      border-radius: 50%;
+      background: rgb(47, 179, 142);
+      position: relative;
+
+      i {
+        position: absolute;
+        left: 0.03rem;
+        right: 0;
+        top: 0.01;
+        bottom: 0;
+        margin: auto;
+        width: 0.2rem;
+        height: 0.2rem;
+        color: #fff;
+      }
+    }
+    .unchecked {
+      display: inline-block;
+      width: 0.25rem;
+      height: 0.25rem;
+      border-radius: 50%;
+      border: 0.01rem solid #fff;
+    }
+  }
+  // 付费输入框
+  .wishtype-dec {
+    padding: 0 0.3rem;
+    span {
+      color: #fff;
+    }
+    .pay {
+      width: 3rem;
+      background: rgb(100, 100, 100);
+      margin-top: 0.3rem;
+      padding-left: 0.2rem;
+      label {
+        color: rgb(245, 233, 233);
+      }
+      input {
+        border: none;
+        outline: none;
+        width: 2rem;
+        height: 0.5rem;
+        background: rgb(100, 100, 100);
+        padding-left: 0.15rem;
+        color: rgb(245, 233, 233);
+        font-size: 0.16rem;
+      }
+    }
+  }
+
+  // 底部提交按钮
+  .wishdetailsfoot {
+    position: fixed;
+    bottom: 0.5rem;
+    height: 0.5rem;
+    width: 100%;
+    .sub-btn {
+      display: flex;
+      justify-content: space-around;
+      img {
+        height: 0.5rem;
+        width: 2.5rem;
+      }
+    }
+  }
+}

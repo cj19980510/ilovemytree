@@ -1,0 +1,109 @@
+.ry {
+  overflow: hidden;
+}
+
+.ry-img {
+  position: relative;
+}
+
+.ry-img .ry-name {
+  position: absolute;
+  top: 1.5rem;
+  left: 0.15rem;
+  width: 3.45rem;
+  height: 0.5rem;
+  padding: 0 0.1rem;
+  background: #fff;
+  border-radius: 0.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ry-img .ry-name span:nth-of-type(1) {
+  font-weight: bold;
+}
+
+.ry-img .ry-name span:nth-of-type(2) {
+  color: #18ac82;
+}
+
+.ry-title {
+  margin-top: 0.4rem;
+  background: #fff;
+  margin-left: 0.16rem;
+  width: 3.45rem;
+  padding: 0.1rem;
+  border-radius: 0.1rem;
+}
+
+.ry-title p {
+  width: 3.35rem;
+  color: #747474;
+  margin-top: 0.2rem;
+  line-height: 0.2rem;
+  padding: 0 0.2rem;
+}
+
+.ry-title div {
+  margin-top: 0.2rem;
+  text-align: center;
+}
+
+.ry-read {
+  display: flex;
+  height: .2rem;
+  margin-bottom: 0.3rem;
+}
+
+.read {
+  color: #1dad85;
+  margin-top: 0.12rem;
+  display: block;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.ry-foot {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.1rem;
+}
+
+.ry-foot div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ry-foot div i {
+  color: #ccc;
+  font-size: 0.25rem;
+}
+
+.ry-foot div span {
+  color: #aaa;
+}
+
+.ry-foot .ry-btn {
+  display: block;
+  text-align: center;
+  line-height: 0.4rem;
+  width: 2.7rem;
+  height: 0.4rem;
+  border-radius: 0.2rem;
+  background-color: #0fa87d;
+  color: #fff;
+  border: 0;
+}
+
+.ry-pic {
+  width: 100%;
+  height: 1.7rem;
+}
+
+.ry-pic img {
+  width: 100%;
+  height: 100%;
+}

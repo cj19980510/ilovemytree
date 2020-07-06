@@ -1,0 +1,163 @@
+@import "../../assets/style/border.scss";
+.container {
+  .nav {
+    height: 0.44rem;
+    @include border(#ccc, 0 0 1px 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a {
+      color: #666;
+      text-decoration: none;
+      font-weight: bold;
+      height: 100%;
+      line-height: 0.44rem;
+      font-size: 0.16rem;
+      border-bottom: 0.02rem solid transparent;
+      &.active {
+        color: green;
+        border-bottom: 0.02rem solid green;
+      }
+    }
+  }
+  .culture-box {
+    padding: 0 0.15rem;
+    .bg {
+      margin-top: 0.2rem;
+      margin-bottom: 0.19rem;
+    }
+    .area {
+      color: #bbb;
+      font-size: 0.12rem;
+      i {
+        font-size: 0.11rem;
+        color: #bbb;
+      }
+      .am-picker {
+        position: fixed;
+        background: #0fa87d;
+        width: 3.45rem;
+        height: 2.38rem;
+      }
+    }
+    .card {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 3.45rem;
+      height: 1rem;
+      box-shadow: 0 0 0.01rem 0.001rem #ccc;
+      border-radius: 0.1rem;
+      margin-top: 0.18rem;
+      img {
+        width: 0.74rem;
+        height: 0.74rem;
+        border-radius: 0.1rem;
+        overflow: hidden;
+      }
+      .card-text {
+        padding-right: 0.1rem;
+        h4 {
+          font-size: 0.12rem;
+          font-weight: bold;
+        }
+        span {
+          font-size: 0.11rem;
+          color: #d2d2d2;
+          line-height: 0.3rem;
+        }
+        p {
+          font-size: 0.09rem;
+          color: #ff645c;
+        }
+      }
+      a {
+        display: block;
+        width: 0.68rem;
+        height: 0.28rem;
+        text-align: center;
+        line-height: 0.28rem;
+        width: 0.68rem;
+        height: 0.28rem;
+        border-radius: 0.16rem;
+        background: #0fa87d;
+        color: #f0f9f7;
+        border: none;
+        font-size: 0.11rem;
+        font-weight: bold;
+      }
+      .back {
+        background: #d2d2d2;
+      }
+    }
+  }
+  .red-box {
+    padding: 0 0.15rem;
+    .bg {
+      margin-top: 0.2rem;
+      margin-bottom: 0.19rem;
+    }
+    .area {
+      color: #bbb;
+      font-size: 0.12rem;
+      i {
+        font-size: 0.11rem;
+        color: #bbb;
+      }
+      .am-picker {
+        position: fixed;
+        background: #0fa87d;
+        width: 3.45rem;
+        height: 2.38rem;
+      }
+    }
+    .card {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 3.45rem;
+      height: 1rem;
+      box-shadow: 0 0 0.01rem 0.001rem #ccc;
+      border-radius: 0.1rem;
+      margin-top: 0.18rem;
+      img {
+        width: 0.74rem;
+        height: 0.74rem;
+        border-radius: 0.1rem;
+        overflow: hidden;
+      }
+      .card-text {
+        padding-right: 1rem;
+        h4 {
+          font-size: 0.12rem;
+          font-weight: bold;
+        }
+        span {
+          font-size: 0.11rem;
+          color: #d2d2d2;
+          line-height: 0.3rem;
+        }
+        p {
+          font-size: 0.09rem;
+          color: #ff645c;
+        }
+      }
+      a {
+        display: block;
+        width: 0.68rem;
+        height: 0.28rem;
+        text-align: center;
+        line-height: 0.28rem;
+        border-radius: 0.16rem;
+        background: #0fa87d;
+        color: #f0f9f7;
+        border: none;
+        font-size: 0.11rem;
+        font-weight: bold;
+      }
+      .back {
+        background: #d2d2d2;
+      }
+    }
+  }
+}

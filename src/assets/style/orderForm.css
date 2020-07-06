@@ -1,0 +1,52 @@
+.order-content {
+  overflow: auto;
+  width: 3.45rem;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin-left: 0.15rem;
+  padding: 0.15rem;
+}
+
+.order-content .form-title {
+  display: flex;
+  padding: 0.35rem 0;
+}
+
+.order-content .form-title div {
+  margin-left: 0.2rem;
+}
+
+.order-content .form-title div p:nth-of-type(2) {
+  color: #666;
+}
+
+.order-content ul .first-li {
+  border-bottom: 0.01rem solid #ccc;
+  padding: 0.1rem 0;
+}
+
+.order-content ul li {
+  display: flex;
+  justify-content: space-around;
+}
+
+.order-content ul li p {
+  width: 25%;
+  text-align: center;
+  margin-top: 0.1rem;
+}
+
+.order-content ul li .p2:nth-of-type(2), .order-content ul li .p2:nth-of-type(3) {
+  word-wrap: break-word;
+}
+
+.order-content ul li .p3 {
+  line-height: 0.54rem;
+}
+
+.order-content ul li .p3 span {
+  color: #0fa87d;
+  border: 1px solid #0fa87d;
+  border-radius: 0.2rem;
+  padding: 0.05rem 0.18rem;
+}

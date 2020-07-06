@@ -1,0 +1,29 @@
+@import '../../../assets/style/border.scss';
+
+.sets_box{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #fff;
+    padding: .15rem;
+    >li{
+        height: .55rem;
+        line-height: .55rem;
+        @include border(#eee,0 0 1px 0);
+        >a{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            >b{
+                font-size: .16rem;
+                color: #333;
+            }
+            >i{
+                font-size: .16rem;
+                color: #ccc;
+            }
+        }
+    }
+    
+
+}

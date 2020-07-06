@@ -1,0 +1,71 @@
+@import '../../../assets/style/theme.scss';
+@import '../../../assets/style/border.scss';
+.myList{
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 100%;
+    padding-top: .02rem;
+    .myList_top{
+        background-color: #fff;
+        padding: 0 .2rem 0 .15rem;
+        height: .9rem;
+        width: 100%;
+        line-height: .9rem;
+        margin-bottom: .2rem;
+        >a{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            >b{
+                display: flex;
+                align-items: center;
+                img{
+                    width: 0.6rem;
+                    height: 0.6rem;
+                    border-radius: 50%;
+                }
+                >span{
+                    font-size: .16rem;
+                    color: #333;
+                    font-weight: 600;
+                    margin-left: .25rem;
+                }
+            }
+            >i{
+                font-size: .15rem;
+                color: #ccc;
+            }
+        }
+    }
+    .myList_body{
+        >li{
+            >a{
+                padding: 0 .2rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center; 
+                height: .5rem;
+                width: 100%;
+                background-color: #fff;
+                margin: .02rem 0;
+                @include border(#eee,0 0 1px 0);
+                >b{
+                    display: flex;
+                    align-items: center;
+                    >i{
+                        color: $theme;
+                    }
+                    >span{
+                        font-size: .16rem;
+                        color: #333;
+                        margin-left: .12rem;
+                    }
+                }
+                >i{
+                    font-size: .15rem;
+                    color: #ccc;
+                }
+            }
+        }
+    }
+}

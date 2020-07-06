@@ -1,0 +1,104 @@
+@import '../../../assets/style/theme.scss';
+@import '../../../assets/style/border.scss';
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: .2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+    >h3{
+        margin-top: .5rem;
+        font-size: .26rem;
+        font-weight: 600;
+        color: #333;
+    }
+    >p{
+        font-size: .16rem;
+        color: #666;
+        font-weight: 600;
+        margin: .15rem 0;
+    }
+    >form{
+        >p{
+            @include border(#ccc,0 0 1px 0);
+            height: .5rem;
+            line-height: .5rem;
+            >i{
+                color: $theme;
+                font-size: .2rem;
+            }
+            input{
+                border: none;
+                outline: none;
+                height: 100%;
+                margin: 0 .15rem;
+                width: 1.8rem;
+            }
+            ::-webkit-input-placeholder{
+                color:#ccc;
+                font-size: .16rem;
+            }
+            button{
+                border: none;
+                background-color: #fff;
+                color: #bbb;
+                font-size: .16rem;
+                outline: none;
+            }
+        }
+        >div{
+            margin-top: .15rem;
+            >i{
+                color: $theme;
+                font-size: .2rem;
+                margin-right: .06rem;
+            }
+            >span{
+                font-size: .15rem;
+                color: #bbb;
+                a{
+                    color: $theme;
+                }
+            }
+            >button{
+                height: .44rem;
+                margin-top: .6rem;
+                width: 3.3rem;
+                background-color: $theme;
+                color: #fff;
+                font-size: .18rem;
+                border: none;
+                outline: none;
+                border-radius: .2rem;
+                letter-spacing: 5px;
+            }
+        }
+    }
+    >div{
+        >p{
+            text-align: center;
+            margin-top: 1.2rem;
+            font-size: .18rem;
+            color: #bbb;
+        }
+        >ul{
+            display: flex;
+            justify-content: center;
+            li{
+                margin: 0 .2rem;
+                a{
+                    img{
+                       width: 0.5rem;
+                       height: 0.5rem;
+                       margin-top: .2rem;
+                    }
+                }
+            }
+        }
+    }
+}

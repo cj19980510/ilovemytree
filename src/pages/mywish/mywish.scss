@@ -1,0 +1,161 @@
+.container {
+  .wishtree {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    background: url(/img/wishtreebg.jpg) no-repeat !important ;
+    background-size: 3.75rem 6.9rem !important;
+    // 许愿大树
+    .tr-wish {
+      position: absolute;
+      left: 0;
+      margin: auto;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 3rem;
+      height: 3rem;
+      background: url(/img/tree.png) no-repeat;
+      background-size: 3rem 3rem;
+      ul {
+        position: absolute;
+        top: 1.5rem;
+        height: 0.7rem;
+        // background: red;
+        width: 3rem;
+        li {
+          cursor: pointer;
+          height: 100%;
+          width: 0.3rem;
+          position: absolute;
+          background: url(/img/wishlabel.png) no-repeat;
+          background-size: 0.3rem 0.7rem;
+        }
+        .wish0 {
+          left: 2rem;
+        }
+        .wish1 {
+          left: 1.5rem;
+          top: -0.1rem;
+        }
+        .wish2 {
+          left: 0.6rem;
+          top: 0.05rem;
+        }
+      }
+    }
+    a {
+      cursor: pointer;
+    }
+    // 许愿树背景
+    img {
+      width: 100%;
+    }
+    // 右上公益公园
+    .treezoo {
+      top: 0.2rem;
+      right: 0.2rem;
+      position: absolute;
+      width: 0.7rem;
+      height: 0.6rem;
+      img {
+        width: 0.7rem;
+        height: 0.6rem;
+      }
+    }
+    // 左上个人中心
+    .mine {
+      // display: block;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 0.7rem;
+      width: 1.3rem;
+      background: rgba(9, 191, 236, 0.2);
+      position: absolute;
+      top: 0.2rem;
+      left: 0;
+      border-radius: 0 0.5rem 0.5rem 0;
+      .usersc {
+        height: 0.35rem;
+        display: flex;
+        img {
+          width: 0.25rem;
+          height: 0.3rem;
+          border-radius: 50%;
+        }
+        span {
+          height: 100%;
+          font-size: 0.14rem;
+          line-height: 0.35rem;
+          color: rgb(15, 168, 125);
+          padding-left: 0.1rem;
+        }
+      }
+      padding: 0 0.2rem 0 0.1rem;
+      .userimg {
+        display: flex;
+        height: 0.35rem;
+        img {
+          width: 0.3rem;
+          height: 0.3rem;
+          border-radius: 50%;
+        }
+        i {
+          font-size: 0.14rem;
+          line-height: 0.35rem;
+          height: 100%;
+          padding-left: 0.1rem;
+          color: #4bba1f;
+        }
+      }
+    }
+    // 签到 日记 许愿
+    .footlink {
+      width: 1.8rem;
+      // background: blue;
+      height: 0.6rem;
+      display: flex;
+      justify-content: space-around;
+      position: absolute;
+      left: 0;
+      bottom: 0.4rem;
+
+      a {
+        width: 0.7rem;
+        height: 0.6rem;
+        // padding-top: 0.1rem;
+        img {
+          width: 0.6rem;
+          height: 0.6rem;
+        }
+        .haveqd {
+          height: 0.5rem;
+          // width: 0.5rem;
+          margin-top: 0.05rem;
+          // margin-left: 0.05rem;
+        }
+      }
+    }
+
+    // 找朋友{
+    .findfriend {
+      position: absolute;
+      bottom: 0.4rem;
+      right: 0.3rem;
+
+      a {
+        display: flex;
+        img {
+          width: 0.3rem;
+          height: 0.3rem;
+        }
+        span {
+          justify-content: center;
+          line-height: 0.3rem;
+          color: #42cfa7;
+        }
+      }
+    }
+  }
+}
