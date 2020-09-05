@@ -13,7 +13,7 @@
     "http-proxy-middleware": "^0.20.0",
     "immutable": "^4.0.0-rc.12",
     "loadsh": "^0.0.4",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "rc-form": "^2.4.11",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
