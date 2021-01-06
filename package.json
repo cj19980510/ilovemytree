@@ -6,7 +6,7 @@
     "antd-mobile": "^2.3.1",
     "antd-mobile-demo-data": "^0.3.0",
     "array-tree-filter": "^2.1.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "babel-plugin-import": "^1.12.2",
     "better-scroll": "^1.15.2",
     "customize-cra": "^0.8.0",
